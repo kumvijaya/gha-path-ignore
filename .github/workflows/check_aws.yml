@@ -1,4 +1,4 @@
-name: hello-world
+name: check_aws
 on:
     workflow_dispatch:
 
