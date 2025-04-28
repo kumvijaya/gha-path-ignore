@@ -1,0 +1,10 @@
+name: hello-world
+on:
+    workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check aws
+        run: aws --version
