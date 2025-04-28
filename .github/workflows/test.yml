@@ -13,3 +13,6 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+
+      - name: check aws
+        run: aws --version
